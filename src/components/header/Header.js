@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
 import "./Header.scss"
-import { ReactComponent as Logo } from "../../assets/WayHyped1.svg"
+import { ReactComponent as Logo } from "../../assets/WayHyped2.svg"
 
 function Header() {
   return (
