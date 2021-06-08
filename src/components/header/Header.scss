@@ -28,6 +28,21 @@
 
     .option {
       padding: 10px 15px;
+      cursor: pointer;
+      &:hover {
+        border-bottom: dotted 1px black;
+      }
+    }
+
+    .user{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      img {
+        border-radius: 50%;
+        width: 50px;
+        border: 2px solid rgb(22, 218, 22);
+      }
     }
   }
 }
